@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DemoApp</RootNamespace>
+    <ProjectName>Win32x64 PinaBar App</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PinaControla;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS; _CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PinaControla;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PinaControla;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PinaControla;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>true</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InfoPinaBtnHelper.h" />
+    <ClInclude Include="OnCmdBtn_Blend_Normal.h" />
+    <ClInclude Include="OnCmdBtn_ColorFill_Line.h" />
+    <ClInclude Include="OnCmdBtn_NewLabel.h" />
+    <ClInclude Include="OnComboBtn_BarIconsSize.h" />
+    <ClInclude Include="OnComboBtn_BarStyles.h" />
+    <ClInclude Include="OnDropdownBtn_BarSettings.h" />
+    <ClInclude Include="OnEditBtn_Search.h" />
+    <ClInclude Include="ImageListHelper.h" />
+    <ClInclude Include="OnComboBtn_Paste.h" />
+    <ClInclude Include="OnCmdBtn_FileOps.h" />
+    <ClInclude Include="OnSliderBtn_MoveIcons.h" />
+    <ClInclude Include="PinaBtnHandlers.h" />
+    <ClInclude Include="Win32x64PinaBarApp.h" />
+    <ClInclude Include="IoHelper.h" />
+    <ClInclude Include="PaintHelper.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InfoPinaBtnHelper.cpp" />
+    <ClCompile Include="OnCmdBtn_Blend_Normal.cpp" />
+    <ClCompile Include="OnCmdBtn_ColorFill_Line.cpp" />
+    <ClCompile Include="OnCmdBtn_NewLabel.cpp" />
+    <ClCompile Include="OnComboBtn_BarIconsSize.cpp" />
+    <ClCompile Include="OnComboBtn_BarStyles.cpp" />
+    <ClCompile Include="OnDropdownBtn_BarSettings.cpp" />
+    <ClCompile Include="OnEditBtn_Search.cpp" />
+    <ClCompile Include="ImageListHelper.cpp" />
+    <ClCompile Include="OnComboBtn_Paste.cpp" />
+    <ClCompile Include="OnCmdBtn_FileOps.cpp" />
+    <ClCompile Include="OnSliderBtn_MoveIcons.cpp" />
+    <ClCompile Include="PinaBtnHandlers.cpp" />
+    <ClCompile Include="Win32x64PinaBarApp.cpp" />
+    <ClCompile Include="IoHelper.cpp" />
+    <ClCompile Include="PaintHelper.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="App.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Images\Main\SliderAndCombo.bmp" />
+    <Image Include="..\Images\Main\Tips.bmp" />
+    <Image Include="..\Images\Main\Usual_color_fill_line.bmp" />
+    <Image Include="..\Images\Main\Usual_dropdown.bmp" />
+    <Image Include="..\Images\Main\Usual_open_save_find_blend.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\Color_fillHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\CopyHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\Edit_redoHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\Edit_UndoHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\FolderHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\FontColorHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\FullScreenHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\GraphHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\HighlightHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\IndentHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\IndentPL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\InsertPictureHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\LandscapeHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\OpenHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\OpenPL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\OutdentHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\OutdentPL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\PasteHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\PortraitHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\PreviousPageHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\PrintPreviewHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\SaveHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\TaskHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\24\WebInsertHyperlinkHL.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\Color_fillHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\Color_lineHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\FindHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\OpenHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\PasteHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\PrintHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\PropertiesHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\SaveAsHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\SaveHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\TaskHH.bmp" />
+    <Image Include="..\Images\Toolbar\Bmp\32\ZoomHH.bmp" />
+    <Image Include="..\Images\Toolbar\Icons\Book_Green.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Book_JournalwPen.ico" />
+    <Image Include="..\Images\Toolbar\Icons\cog.ico" />
+    <Image Include="..\Images\Toolbar\Icons\computer.ico" />
+    <Image Include="..\Images\Toolbar\Icons\envelope_stamp_clsd.ico" />
+    <Image Include="..\Images\Toolbar\Icons\eraser.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Globe.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Hyperlink.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Music_Note_Single.ico" />
+    <Image Include="..\Images\Toolbar\Icons\network_center.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Network_Fax.ico" />
+    <Image Include="..\Images\Toolbar\Icons\network_fax_default.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Network_Folder.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Network_Internet.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Network_Map.ico" />
+    <Image Include="..\Images\Toolbar\Icons\network_printer.ico" />
+    <Image Include="..\Images\Toolbar\Icons\PaintPaletteFINAL.ico" />
+    <Image Include="..\Images\Toolbar\Icons\Tape.ico" />
+    <Image Include="..\Images\Toolbar\Png\009_HighPriority_48x48_72.png" />
+    <Image Include="..\Images\Toolbar\Png\109_AllAnnotations_Default_48x48_72.png" />
+    <Image Include="Win32x64 PinaBar.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PinaControla\PinaControla.vcxproj">
+      <Project>{ac9fa94d-1525-48b3-a41c-7bb1be3ebc1b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

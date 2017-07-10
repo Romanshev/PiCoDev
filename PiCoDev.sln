@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PinaControla", "PinaControla\PinaControla.vcxproj", "{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pin32x64app", "App\App.vcxproj", "{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shell", "Shell", "{577B435A-14F2-45AA-9B80-26AF5FDA94CD}"
+	ProjectSection(SolutionItems) = preProject
+		..\Shell\ctl3dMine.c = ..\Shell\ctl3dMine.c
+		..\Shell\ctlsprivWin16Mine.h = ..\Shell\ctlsprivWin16Mine.h
+		..\Shell\cutilsMine.c = ..\Shell\cutilsMine.c
+		..\Shell\drawMine.c = ..\Shell\drawMine.c
+		..\Shell\imageMine.c = ..\Shell\imageMine.c
+		..\Shell\notifyMine.c = ..\Shell\notifyMine.c
+		..\Shell\tbcustMine.c = ..\Shell\tbcustMine.c
+		..\Shell\toolbarMine.c = ..\Shell\toolbarMine.c
+		..\Shell\toolbarMine.h = ..\Shell\toolbarMine.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Debug|Win32.Build.0 = Debug|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Debug|x64.ActiveCfg = Debug|x64
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Debug|x64.Build.0 = Debug|x64
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Release|Win32.ActiveCfg = Release|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Release|Win32.Build.0 = Release|Win32
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Release|x64.ActiveCfg = Release|x64
+		{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}.Release|x64.Build.0 = Release|x64
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Debug|Win32.Build.0 = Debug|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Debug|x64.ActiveCfg = Debug|x64
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Debug|x64.Build.0 = Debug|x64
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Release|Win32.ActiveCfg = Release|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Release|Win32.Build.0 = Release|Win32
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Release|x64.ActiveCfg = Release|x64
+		{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

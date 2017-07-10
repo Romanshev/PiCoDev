@@ -1,0 +1,92 @@
+LIBRARY PINACONTROLA
+EXPORTS
+	CreatePinaBar
+	MsgHandlerPinaBar
+	IsThisMsgForPinaBar
+
+	PinCmdBtn
+	PinWinBtn
+
+	PinGap
+	PinSep
+
+	DelBtn
+
+	GetBtnPos
+	MoveBtnPosFromTo
+
+	SetBtnPins
+	GetBtnPins
+
+	SetBtnLabel
+	GetBtnLabel
+
+	SetBtnTip
+	GetBtnTip
+
+	SetBtnImg
+	GetBtnImg
+
+	SetBtnWidth
+	GetBtnWidth
+
+	GetBtnState
+	GetBtnStyle
+
+	SetBarStyle
+	GetBarStyle	
+
+	SetBarBk
+	SetBarBorder
+	SetBarLabelColor
+	SetBarColors
+
+	SetBtnTem_HoveredBk
+	SetBtnTem_DefaultBk 
+	SetBtnTem_DisabledBk
+	SetBtnTem_MarkedBk
+	SetBtnTem_CheckedBk
+	SetBtnTem_CheckedHoveredBk
+	SetBtnTem_PressedBk
+
+	SetBtnTem_HoveredBorder 
+	SetBtnTem_DefaultBorder
+	SetBtnTem_DisabledBorder  
+	SetBtnTem_MarkedBorder  
+	SetBtnTem_CheckedBorder 
+	SetBtnTem_CheckedHoveredBorder
+	SetBtnTem_PressedBorder 
+	
+	SetBtnTem_HoveredLabelColor
+	SetBtnTem_DefaultLabelColor
+	SetBtnTem_DisabledLabelColor
+	SetBtnTem_MarkedLabelColor
+	SetBtnTem_CheckedLabelColor
+	SetBtnTem_CheckedHoveredLabelColor
+	SetBtnTem_PressedLabelColor	
+
+	SetBtn_HoveredBk 
+	SetBtn_DefaultBk 
+	SetBtn_DisabledBk 
+	SetBtn_MarkedBk
+	SetBtn_CheckedBk 
+	SetBtn_CheckedHoveredBk
+	SetBtn_PressedBk
+
+	SetBtn_HoveredBorder
+	SetBtn_DefaultBorder
+	SetBtn_DisabledBorder
+	SetBtn_MarkedBorder
+	SetBtn_CheckedBorder 
+	SetBtn_CheckedHoveredBorder
+	SetBtn_PressedBorder
+
+	SetBtn_HoveredLabelColor 
+	SetBtn_DefaultLabelColor 
+	SetBtn_DisabledLabelColor 
+	SetBtn_MarkedLabelColor
+	SetBtn_CheckedLabelColor
+	SetBtn_CheckedHoveredLabelColor
+	SetBtn_PressedLabelColor
+
+	GetBtnRect

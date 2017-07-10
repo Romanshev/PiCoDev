@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{cfc865ff-6d1e-4659-9505-b0073c8e52a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{583fb823-6043-4841-bf77-0fc6efb0f6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PinaBtnHandlers">
+      <UniqueIdentifier>{577820a3-88fa-4a74-b930-b29635d7597c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PinaBtnHandlers">
+      <UniqueIdentifier>{e3bab098-f9ba-4ad2-b9f6-cc43348a8348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PinaBtnHandlers\Cmd">
+      <UniqueIdentifier>{a24e121b-dc96-40d2-9d46-5808064bd4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PinaBtnHandlers\Cmd\Checked">
+      <UniqueIdentifier>{cb72ef0c-a146-4c17-9446-31a3b8e0be1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PinaBtnHandlers\Dropdown">
+      <UniqueIdentifier>{0b9f6274-f3bc-4d28-af0a-b11d464b10dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PinaBtnHandlers\Dropdown">
+      <UniqueIdentifier>{0b701a40-a02b-4c3c-b4f4-d85d2ac5117d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PinaBtnHandlers\Cmd">
+      <UniqueIdentifier>{c9feced0-ca9d-4962-bf7c-53ae97ee1c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PinaBtnHandlers\Cmd\Checked">
+      <UniqueIdentifier>{06069089-b2c6-4bcd-805e-65ba43bbe839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PinaBtnHandlers\Composite">
+      <UniqueIdentifier>{20c902ca-bb1a-40be-a948-9d973e034b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PinaBtnHandlers\Composite">
+      <UniqueIdentifier>{e61e5b2a-af7d-48ce-90ce-cc2336349b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PinaBtnHandlers\Cmd\Checked\Group">
+      <UniqueIdentifier>{ed2ecd18-e5b5-401a-8fcc-84b1b7fd2a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PinaBtnHandlers\Cmd\Checked\Group">
+      <UniqueIdentifier>{cb2d9319-cc2b-47e1-a438-cd53d31f20e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IoHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageListHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PinaBtnHandlers.h">
+      <Filter>Header Files\PinaBtnHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="OnComboBtn_Paste.h">
+      <Filter>Header Files\PinaBtnHandlers\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="OnEditBtn_Search.h">
+      <Filter>Header Files\PinaBtnHandlers\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="OnSliderBtn_MoveIcons.h">
+      <Filter>Header Files\PinaBtnHandlers\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="OnDropdownBtn_BarSettings.h">
+      <Filter>Header Files\PinaBtnHandlers\Dropdown</Filter>
+    </ClInclude>
+    <ClInclude Include="OnCmdBtn_FileOps.h">
+      <Filter>Header Files\PinaBtnHandlers\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="OnCmdBtn_Blend_Normal.h">
+      <Filter>Header Files\PinaBtnHandlers\Cmd\Checked</Filter>
+    </ClInclude>
+    <ClInclude Include="OnCmdBtn_ColorFill_Line.h">
+      <Filter>Header Files\PinaBtnHandlers\Cmd\Checked\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoPinaBtnHelper.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="OnComboBtn_BarStyles.h">
+      <Filter>Header Files\PinaBtnHandlers\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="OnComboBtn_BarIconsSize.h">
+      <Filter>Header Files\PinaBtnHandlers\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="OnCmdBtn_NewLabel.h">
+      <Filter>Header Files\PinaBtnHandlers\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32x64PinaBarApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IoHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageListHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="PinaBtnHandlers.cpp">
+      <Filter>Source Files\PinaBtnHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="OnComboBtn_Paste.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="OnEditBtn_Search.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="OnSliderBtn_MoveIcons.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="OnDropdownBtn_BarSettings.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Dropdown</Filter>
+    </ClCompile>
+    <ClCompile Include="OnCmdBtn_FileOps.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="OnCmdBtn_Blend_Normal.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Cmd\Checked</Filter>
+    </ClCompile>
+    <ClCompile Include="OnCmdBtn_ColorFill_Line.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Cmd\Checked\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoPinaBtnHelper.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="OnComboBtn_BarStyles.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="OnComboBtn_BarIconsSize.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="OnCmdBtn_NewLabel.cpp">
+      <Filter>Source Files\PinaBtnHandlers\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32x64PinaBarApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Main\Tips.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Main\SliderAndCombo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Main\Usual_color_fill_line.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Main\Usual_dropdown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Main\Usual_open_save_find_blend.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Png\009_HighPriority_48x48_72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Png\109_AllAnnotations_Default_48x48_72.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\Color_fillHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\CopyHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\Edit_redoHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\Edit_UndoHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\FolderHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\FontColorHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\FullScreenHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\GraphHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\HighlightHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\IndentHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\IndentPL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\InsertPictureHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\LandscapeHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\OpenHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\OpenPL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\OutdentHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\OutdentPL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\PasteHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\PortraitHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\PreviousPageHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\PrintPreviewHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\SaveHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\TaskHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\24\WebInsertHyperlinkHL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\cog.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\envelope_stamp_clsd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\eraser.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\PaintPaletteFINAL.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Tape.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Book_Green.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Book_JournalwPen.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\computer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Globe.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Hyperlink.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Music_Note_Single.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\network_center.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Network_Fax.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\network_fax_default.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Network_Folder.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Network_Internet.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\Network_Map.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Icons\network_printer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\Color_fillHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\Color_lineHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\FindHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\OpenHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\PasteHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\PrintHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\PropertiesHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\SaveHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\TaskHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\ZoomHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Images\Toolbar\Bmp\32\SaveAsHH.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Win32x64 PinaBar.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="App.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
