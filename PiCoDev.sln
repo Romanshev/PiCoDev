@@ -1,24 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PinaControla", "PinaControla\PinaControla.vcxproj", "{AC9FA94D-1525-48B3-A41C-7BB1BE3EBC1B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pin32x64app", "App\App.vcxproj", "{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shell", "Shell", "{577B435A-14F2-45AA-9B80-26AF5FDA94CD}"
-	ProjectSection(SolutionItems) = preProject
-		..\Shell\ctl3dMine.c = ..\Shell\ctl3dMine.c
-		..\Shell\ctlsprivWin16Mine.h = ..\Shell\ctlsprivWin16Mine.h
-		..\Shell\cutilsMine.c = ..\Shell\cutilsMine.c
-		..\Shell\drawMine.c = ..\Shell\drawMine.c
-		..\Shell\imageMine.c = ..\Shell\imageMine.c
-		..\Shell\notifyMine.c = ..\Shell\notifyMine.c
-		..\Shell\tbcustMine.c = ..\Shell\tbcustMine.c
-		..\Shell\toolbarMine.c = ..\Shell\toolbarMine.c
-		..\Shell\toolbarMine.h = ..\Shell\toolbarMine.h
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32x64 PinaBar App", "App\App.vcxproj", "{0DF39CE9-067D-4CCE-89DB-50D5AC3BC547}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
